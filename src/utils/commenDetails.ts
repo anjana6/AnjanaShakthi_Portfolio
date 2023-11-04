@@ -55,35 +55,38 @@ export const skillDetails = [
     {
         skill1: 'MongoDB',skill1Url: 'https://res.cloudinary.com/ashakthi/image/upload/v1635785736/samples/protfolio/mongodb_oxjjbn.jpg', 
         skill2: 'MySQL', skill2Url: 'https://res.cloudinary.com/ashakthi/image/upload/v1635785745/samples/protfolio/mysql_ib9wje.png'
+    },
+    {
+        skill1: 'Sass',skill1Url: 'https://res.cloudinary.com/ashakthi/image/upload/v1699060713/portfolio/geiahmtqn1t0njqtc01u.png'
     }
 ]
 
 
 export const projectDetails = [
     {
-        imageUrl: 'https://res.cloudinary.com/ashakthi/image/upload/v1635840407/samples/protfolio/moviewsite_hzaxmx.png',
-        name: "htMovies Site",
-        description: 'This is a group project. The framework used in this application is NextJs with Typescript. MovieDB used to get the movie details and Ant Design and taildwincss used to desing the UI.',
-        technologies: ['NextJs','Ant Design','Tailwindcss'],
-        viewUrl: 'https://www.htmovies.net/',
-        gitHubUrl: null
+        imageUrl: 'https://res.cloudinary.com/ashakthi/image/upload/v1699059490/portfolio/rf9rp76kprixaf3awywu.png',
+        name: "SH Movie Site",
+        description: 'This is movie website that generally meant to meet visitors’ expectations. This allow user to watch the movie trailer and download the movie. React, Node and Sass are used to develop this application and TMDB movie database used to  fetch the movie details.',
+        technologies: ['React','Sass','TMDB'],
+        viewUrl: 'https://sh-movie-anjana6.vercel.app/',
+        gitHubUrl: 'https://github.com/anjana6/SH_Movie'
     },
     {
         imageUrl: 'https://res.cloudinary.com/ashakthi/image/upload/v1635839953/samples/protfolio/portfolio_ouxqjw.png',
         name: "Portfolio WebApp",
         description: "This is My Personal website. NextJs is the framework used in this application. This application hasn't a back-end and SendGrid is the email service that is used in this application. Ant Design and tailwindcss are used to design UI.",
         technologies: ['NextJs','Ant Design','Tailwindcss'],
-        viewUrl: '',
+        viewUrl: 'https://anjana-shakthi-portfolio.vercel.app/',
         gitHubUrl: 'https://github.com/anjana6/portfolio-V2'
     },
-    {
-        imageUrl: 'https://res.cloudinary.com/ashakthi/image/upload/v1635839991/samples/protfolio/QuantAmount_nas6on.png',
-        name: "Quantamount",
-        description: 'This application is created by the readblocks company to automate the BOQ process. React and Nodejs are the technologies and MySQL with sequelize ORM is the database system  used in this application.I mainly worked on the backend side of this application',
-        technologies: ['React', 'NodeJs(Expressjs)', 'Ant Design'],
-        viewUrl: 'https://app.quantamount.com/',
-        gitHubUrl: null
-    },
+    // {
+    //     imageUrl: 'https://res.cloudinary.com/ashakthi/image/upload/v1635839991/samples/protfolio/QuantAmount_nas6on.png',
+    //     name: "Quantamount",
+    //     description: 'This application is created by the readblocks company to automate the BOQ process. React and Nodejs are the technologies and MySQL with sequelize ORM is the database system  used in this application.I mainly worked on the backend side of this application',
+    //     technologies: ['React', 'NodeJs(Expressjs)', 'Ant Design'],
+    //     viewUrl: 'https://app.quantamount.com/',
+    //     gitHubUrl: null
+    // },
     {
         imageUrl: 'https://res.cloudinary.com/ashakthi/image/upload/v1635840015/samples/protfolio/chatApp_texbrx.png',
         name: "Web Chat-APP",

@@ -41,7 +41,7 @@ const LeftNavBar:FC = () :JSX.Element => {
             <div>
               <div className='my-5'>
                 <Image alt='Anjana Shakthi' width={200} preview={false} style={{borderRadius:"50%"}}
-                          src="https://res.cloudinary.com/ashakthi/image/upload/v1635785771/samples/protfolio/profile3_yuc7vr.png" />
+                          src="https://res.cloudinary.com/ashakthi/image/upload/v1699059967/portfolio/gr6l2oicsu7udxsafekk.png" />
               </div>
               <hr className='mb-5'></hr>
               <Menu
@@ -50,7 +50,7 @@ const LeftNavBar:FC = () :JSX.Element => {
                 theme="dark"
                 selectedKeys = {[pathname]}
                 >
-                  <Menu.Item key="/" className={styles.a}>
+                  <Menu.Item key="/">
                     <Link href="/">HOME</Link>
                   </Menu.Item>
                   <Menu.Item key="/about">

@@ -18,10 +18,10 @@ const Skills :FC = () :JSX.Element => {
                                         />
                                 </div>
                                 <div className='col-span-2 md:col-span-1'>
-                                    <SkillItem 
+                                   {skill.skill2 ? <SkillItem 
                                         skill={skill.skill2} 
                                         imageUrl={skill.skill2Url}
-                                        />
+                                        />: null}
                                 </div>
                             </div>   
                         )
